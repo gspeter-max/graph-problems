@@ -1,2 +1,16 @@
 Graph Coloring Problem:
 1. Given a graph and M colors, can you color each vertex so that no two adjacent vertices have the same color?
+
+
+2. 🔍 Hamiltonian Path Finder in a Graph
+📖 Problem Statement
+Given an undirected graph represented as an adjacency matrix, your task is to determine whether there exists a Hamiltonian Path in the graph. A Hamiltonian Path is a path that visits every vertex exactly once. If such a path exists, output one valid Hamiltonian Path. Otherwise, state that no path exists.
+
+📊 Input
+An integer N representing the number of vertices in the graph.
+
+An N x N adjacency matrix graph, where:
+
+graph[i][j] = 1 if there is an edge between vertex i and vertex j.
+graph[i][j] = 0 if there is no edge.
+A dictionary that maps vertices to labels (for readable output).
